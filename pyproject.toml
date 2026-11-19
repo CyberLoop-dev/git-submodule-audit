@@ -1,0 +1,9 @@
+[project]
+name = "git-submodule-audit"
+version = "1.0.0"
+description = "Inspect .gitmodules entries and identify missing or uninitialized submodule working trees."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.unittest]
+start-directory = "tests"
